@@ -1,5 +1,5 @@
 """
-Django settings for mig project.
+Django settings for testproject project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/dev/topics/settings/
@@ -49,9 +49,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'mig.urls'
+ROOT_URLCONF = 'testproject.urls'
 
-WSGI_APPLICATION = 'mig.wsgi.application'
+WSGI_APPLICATION = 'testproject.wsgi.application'
 
 
 # Database
